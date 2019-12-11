@@ -26,7 +26,8 @@ These conditions prohibit sharing the NHATS data publically. In order to comply,
 3. Noise has been added to the variables where this is possible.
 4. In the original data, different reasons for missing values are coded with different indicators; in the data in this repository, all missing values are coded as -1.
 5. The original data was slightly oversampled so that there is not a 1:1 correspondence between rows in this dataset and rows in the original dataset.
-6. All rows in this dataset have been assigned a new id variable which is unrelated to the id variable in the original data set.
+6. Some categorical variables have been recoded as binary variables, indicating the presence or absence of one category.
+7. All rows in this dataset have been assigned a new id variable which is unrelated to the id variable in the original data set.
 
 It is likely that even with all of these adjustmets, the data contained in this repository could be reconnected to the original data with some degree of accuracy. However, the original data has been anonymized by NHATS and contains no personally identifiable information. NHATS wants users to obtain their data through the NHATS website so that they can know who is using the dataset. The data has been altered in order to create a reproducible project while not violating the NHATS Conditions of Use.
 
