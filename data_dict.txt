@@ -1,0 +1,161 @@
+unless otherwise specified:
+0 = NO
+1 = YES
+-1 = MISSING
+
+num_in_soc_net: int, the number of people in the individual's social network
+
+no_one_to_talk: int, binary variable indicating that the individual has no one to talk to
+
+visit_fam: int, binary variable indicating that the individual visits family
+
+group_activity: int, binary variable indicating that the individual participates in group activities
+
+go_out_enjoy: int, binary activity indicating that the individual goes out for enjoyment
+
+fav_activity: int, binary variable indicating that the individual was able to do their favorite activity last year
+
+housing_type: int, binary variable indicating whether the individual is aging in place or lives in any type of facility
+0 = AGING IN PLACE
+-1 = FACILITY
+
+non_gov_ins_nurs_home: int, binary variable indicating whether the individual has non-government insurance that covers nursing home care
+
+ltc_ins_nurse_home_cov: int, binary variable indicating whether the individual has long-term-care insurance that covers nursing home care
+
+ltc_ins_asst_liv_cov: int, binary variable indicating whether the individual has long-term-care insurance that covers assisted living
+
+ltc_ins_home_health_cov:  int, binary variable indicating whether the individual has long-term-care insurance that covers home health care
+
+ltc_premium_amt: float, the premium ammount of an individual's long term care insurance
+
+use_asst_walk_dvc: int, binary variable indicating whether the individual uses an assitive device to walk
+
+walk_6_blocks: int, binary variable, indicates whether the individual can walk 6 blocks
+
+go_outside_often: int, a categorical variable indicating how often an individual goes outside
+1 = EVERY DAY (7 DAYS A WEEK)
+2 = MOST DAYS (5-6 DAYS A WEEK)
+3 = SOME DAYS (2-4 DAYS A WEEK)
+4 = RARELY (ONCE A WEEK OR LESS)
+5 = NEVER
+-1 = MISSING
+
+go_outside_use_device: int, binary variable indicating whether individual has used an assistive device to go outside in the last month
+
+balance_score: int, the individual's score on the NHATS assessment of balance
+scored from 0 to 4 where a higher score indicates better balance.
+
+walk_score: int, the individual's score on the NHATS assessment of ability to walk
+scored from 0 to 4 where a higher score indicates better balance.
+
+use_cane_out: int, the frequency with which the individual uses a cane to go outside
+1 = EVERY TIME
+2 = MOST TIMES
+3 = SOMETIMES
+4 = RARELY
+5 = NEVER
+-1 = MISSING
+
+use_walker_out: int, the frequency with which the individual uses a walker to go outside
+1 = EVERY TIME
+2 = MOST TIMES
+3 = SOMETIMES
+4 = RARELY
+5 = NEVER
+-1 = MISSING
+
+use_wheelc_out: int, the frequency with which the individual uses a wheelchair to go outside
+1 = EVERY TIME
+2 = MOST TIMES
+3 = SOMETIMES
+4 = RARELY
+5 = NEVER
+-1 = MISSING
+
+use_scoot_out: int, the frequency with which the individual uses a scooter to go outside
+1 = EVERY TIME
+2 = MOST TIMES
+3 = SOMETIMES
+4 = RARELY
+5 = NEVER
+-1 = MISSING
+
+help_to_go_out: int, binary variable indicating whether the individual ever uses help to go outside
+
+hearing_aid_used: int, binary variable indicating whether hearing aid is ever used
+
+bother_by_pain: int, binary variable indicating whether individual is ever bothered by pain
+
+pain_limits_activity: int, binary variable indicating whether the individual's pain ever limits his or her activity
+
+sppb_score: int, individual's score on the NHATS Short Physical Performance Battery
+scored from 0 to 12 where a higher score indicates greater physical ability
+
+feel_cheerful: int, indicates how often the individual feels cheerful
+1 = EVERY DAY (7 DAYS A WEEK)
+2 = MOST DAYS (5-6 DAYS A WEEK)
+3 = SOME DAYS (2-4 DAYS A WEEK)
+4 = RARELY (ONCE A WEEK OR LESS)
+5 = NEVER
+-1 = MISSING
+
+feel_bored: int, indicates how often the individual feels bored
+1 = EVERY DAY (7 DAYS A WEEK)
+2 = MOST DAYS (5-6 DAYS A WEEK)
+3 = SOME DAYS (2-4 DAYS A WEEK)
+4 = RARELY (ONCE A WEEK OR LESS)
+5 = NEVER
+-1 = MISSING
+
+feel_full_of_life: int, indicates how often the individual feels full of life
+1 = EVERY DAY (7 DAYS A WEEK)
+2 = MOST DAYS (5-6 DAYS A WEEK)
+3 = SOME DAYS (2-4 DAYS A WEEK)
+4 = RARELY (ONCE A WEEK OR LESS)
+5 = NEVER
+-1 = MISSING
+
+feel_upset: int, indicates how often the individual feels upset
+1 = EVERY DAY (7 DAYS A WEEK)
+2 = MOST DAYS (5-6 DAYS A WEEK)
+3 = SOME DAYS (2-4 DAYS A WEEK)
+4 = RARELY (ONCE A WEEK OR LESS)
+5 = NEVER
+-1 = MISSING
+
+life_has_meaning: int, indicates the extent to which the individual agrees with the statement "life has meaning"
+1 = AGREE A LOT
+2 = AGREE A LITTLE
+3 = AGREE NOT AT ALL
+-1 = MISSING
+
+feel_confident: int, indicates how often the individual feels cheerful
+1 = EVERY DAY (7 DAYS A WEEK)
+2 = MOST DAYS (5-6 DAYS A WEEK)
+3 = SOME DAYS (2-4 DAYS A WEEK)
+4 = RARELY (ONCE A WEEK OR LESS)
+5 = NEVER
+-1 = MISSING
+
+gave_up: int, indicates the extent to which the individual agrees with the statement "I gave up improving my life"
+1 = AGREE A LOT
+2 = AGREE A LITTLE
+3 = AGREE NOT AT ALL
+-1 = MISSING
+
+likes_living_sit: int, indicates the extent to which the individual agrees with the statement "I like my current living situation"
+1 = AGREE A LOT
+2 = AGREE A LITTLE
+3 = AGREE NOT AT ALL
+-1 = MISSING
+
+age_you_feel: float, the age the individual feels emotionally and mentally
+
+self_determination: int, indicates the extent to which the individual agrees with the statement "I have self determination"
+1 = AGREE A LOT
+2 = AGREE A LITTLE
+3 = AGREE NOT AT ALL
+-1 = MISSING
+
+spid2: the unique id of each individual/row in the dataset
